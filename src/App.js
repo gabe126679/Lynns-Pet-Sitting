@@ -39,7 +39,7 @@ function App() {
       <GlobalStyle />
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-        <Routes>
+        <Routes >
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/homes' element={<Homes/>} />
