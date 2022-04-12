@@ -86,7 +86,7 @@ const InfoSection = ({
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
           <p>{paragraphTwo}</p>
-          <Button1 to='/homes' primary='true'>
+          <Button1 to='/form' primary='true'>
             {buttonLabel}
           </Button1>
 
@@ -112,20 +112,20 @@ const InfoSection = ({
 
             <p class="text-center w-responsive mx-auto mb-5">Please provide your name, emal, type of pet and any additional information regarding your walk.</p>
             <Form.Group className="mb-3 " controlId="formBasicEmail">
-                <Form.Label className="float-end" >Your Name</Form.Label>
+                <Form.Label className="float-start" >Your Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter name" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label className="float-end">Email address</Form.Label>
+              <Form.Label className="float-start">Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label className="float-end">Type of Pet</Form.Label>
+              <Form.Label className="float-start">Type of Pet</Form.Label>
               <Form.Control type="text" placeholder="Enter Type of Pet" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label className="float-end">Message</Form.Label>
+              <Form.Label className="float-start">Message</Form.Label>
               <Form.Control as="textarea" placeholder="Enter Message" />
             </Form.Group>
             <br/>

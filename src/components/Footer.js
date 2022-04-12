@@ -124,42 +124,42 @@ const Footer = () => {
           </Quote>
           <FooterInfo>
             <h4>Contact Us</h4>
-            <Link to='/homes'>FAQ</Link>
-            <Link to='/homes'>Support</Link>
-            <Link to='/homes'>Questions</Link>
+            <Link to='/form'>FAQ</Link>
+            <Link to='/form'>Support</Link>
+            <Link to='/form'>Questions</Link>
           </FooterInfo>
           <FooterInfo>
             <h4>Services</h4>
-            <Link to='/homes'>Walking</Link>
-            <Link to='/homes'>Pet Sitting</Link>
-            <Link to='/homes'>Medical Administration</Link>
+            <Link to='/form'>Walking</Link>
+            <Link to='/form'>Pet Sitting</Link>
+            <Link to='/form'>Medical Administration</Link>
           </FooterInfo>
         </FooterTop>
         <FooterBottom>
           <SocialIcons>
             <a
-              href='//www.google.com'
+              href='//www.youtube.com'
               rel='noopener noreferrer'
               target='_blank'
             >
               <Youtube />
             </a>
             <a
-              href='//www.google.com'
+              href='//www.instagram.com'
               rel='noopener noreferrer'
               target='_blank'
             >
               <Instagram />
             </a>
             <a
-              href='//www.google.com'
+              href='//www.facebook.com'
               rel='noopener noreferrer'
               target='_blank'
             >
               <Facebook />
             </a>
             <a
-              href='//www.google.com'
+              href='//www.linkedin.com'
               rel='noopener noreferrer'
               target='_blank'
             >
@@ -167,7 +167,7 @@ const Footer = () => {
             </a>
           </SocialIcons>
           <Contact>
-            <Button1 to='/homes'>
+            <Button1 to='/contact'>
               Let's Chat <IoMdArrowRoundForward />
             </Button1>
           </Contact>
