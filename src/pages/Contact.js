@@ -17,14 +17,14 @@ const Contact = () => {
   //   }, 100);
   // };
 
-  if (submitted) {
-    return (
-      <>
-        <h2>Thank you!</h2>
-        <div>We'll be in touch soon.</div>
-      </>
-    );
-  }
+  // if (submitted) {
+  //   return (
+  //     <>
+  //       <h2>Thank you!</h2>
+  //       <div>We'll be in touch soon.</div>
+  //     </>
+  //   );
+  // }
 
   return (
   // <Section>
