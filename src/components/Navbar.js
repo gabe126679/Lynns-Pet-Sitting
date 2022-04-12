@@ -107,7 +107,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <Nav style={style}>
-      <Logo to='/'>LYNN'S PET SITTING </Logo>
+      <Logo to='/'>LYNN'S PETCARE </Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, index) => (
