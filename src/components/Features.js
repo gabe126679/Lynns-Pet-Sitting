@@ -97,11 +97,11 @@ const Features = () => {
               </p>
               <h2 >Origins</h2>
               <p>
-                Growing up on a farm, I developed a unique relationship with many animals, and I naturally learned everything about how to service and comfort animals and to help them thrive in the most suitable environment. I offer pet walking, sitting, medical administration and a wide range of other services.
+                Growing up on a farm, I developed a unique relationship with many animals, and I naturally learned everything about how to service and comfort animals and to help them thrive in the most suitable environment. I currently work as a veterinary technician, as I've done for the past 6 years and I absolutely LOVE my job.
               </p>
               <h2 >Services</h2>
               <p>
-                I currently work as a veterinary technician, as I've done for the past 6 years and I absolutely LOVE my job. What I provide is quintissential information regarding pets needs based on my experience treating animals with the best care and attention.
+                I offer pet walking, sitting, medical administration and a wide range of other services. Most importantly, what I provide is quintissential information regarding pets needs based on my experience treating animals with the best care and attention.
               </p>
               <h3 >I would love to meet you and your pet!</h3>
               <br/>
