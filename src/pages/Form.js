@@ -49,6 +49,7 @@ function Form () {
                 <br/>
                 <br/>
               <p> To: (optional)</p>
+                <div className="customDatePickerWidth">
                 <DatePicker
                     selected={endDate}
                     onChange={(date) => {
@@ -63,6 +64,7 @@ function Form () {
                     timeIntervals={15}
                     className="wide"
                 />
+                </div>
                 <br/>
                 <br/>
                 <br/>
