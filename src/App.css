@@ -28,11 +28,16 @@
   color: #61dafb;
 }
 
+.wide {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 
 @media only screen and (max-width: 600px) {
-  .newOne {
-    overflow: none;
-    margin-left: 2px;
+  .wide {
+    width: 100%;
   }
 }
 

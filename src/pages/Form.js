@@ -3,6 +3,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css'
 import { Button1 } from "../components/Button" 
 import Dog from '../images/dogs.jpg';
+import "./customDatePickerWidth.css";
 
 function Form () {
     const [startDate, setStartDate] = useState(null);
@@ -30,29 +31,37 @@ function Form () {
             <p className="text-center w-responsive mx-auto mb-5">Select a Date and Time that is most suitable for us to have a chat. I look forward to hearing from you and your pets!</p>
             </div>
               <p> From: </p>
-                <DatePicker
-                    selected={startDate}
-                    onChange={(date) => {
-                        setStartDate(date);
-                        console.log(date);
-                    }}
-                    dateFormat="MM/dd/yyyy @ hh:mm a" 
-                    filterDate={date => date.getDay() !== 6 && date.getDay() !== 0}
-                    isClearable
-                    scrollableMonthYearDropdown
-                    showTimeSelect
-                    timeIntervals={15}
-                />
+                <div className="customDatePickerWidth">
+                    <DatePicker
+                        selected={startDate}
+                        onChange={(date) => {
+                            setStartDate(date);
+                            console.log(date);
+                        }}
+                        dateFormat="MM/dd/yyyy hh:mm a" 
+                        filterDate={date => date.getDay() !== 6 && date.getDay() !== 0}
+                        isClearable
+                        scrollableMonthYearDropdown
+                        showTimeSelect
+                        timeIntervals={15}
+                    />
+                </div>
                 <br/>
                 <br/>
               <p> To: (optional)</p>
                 <DatePicker
                     selected={endDate}
-                    onChange={date => setEndDate(date)}
-                    dateFormat='MM/dd/yyyy'
+                    onChange={(date) => {
+                        setEndDate(date);
+                        console.log(date);
+                    }}
+                    dateFormat="MM/dd/yyyy hh:mm a" 
                     filterDate={date => date.getDay() !== 6 && date.getDay() !== 0}
                     isClearable
                     scrollableMonthYearDropdown
+                    showTimeSelect
+                    timeIntervals={15}
+                    className="wide"
                 />
                 <br/>
                 <br/>
