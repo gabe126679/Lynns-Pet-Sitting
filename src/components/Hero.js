@@ -4,7 +4,6 @@ import { Button1 } from './Button';
 import { IoMdArrowRoundForward } from 'react-icons/io';
 import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
 import { motion, AnimatePresence } from 'framer-motion';
-import  { useNavigate } from 'react-router-dom'
 
 const HeroSection = styled.section`
   height: 100vh;
@@ -138,7 +137,6 @@ const Hero = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
   const timeout = useRef(null);
-  const navigate = useNavigate();
 
   useEffect(
     () => {
