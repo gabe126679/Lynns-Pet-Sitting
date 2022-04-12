@@ -4,7 +4,6 @@ import { Button1 } from "../components/Button"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dog from '../images/dogs5.jpg';
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
 const Section = styled.div`
   padding: 20px;
@@ -12,11 +11,11 @@ const Section = styled.div`
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true);
-    }, 100);
-  };
+  // const handleSubmit = () => {
+  //   setTimeout(() => {
+  //     setSubmitted(true);
+  //   }, 100);
+  // };
 
   if (submitted) {
     return (
@@ -41,7 +40,7 @@ const Contact = () => {
   <br/>
 
   <div className="container-sm">
-    <img src={Dog} className="img-fluid rounded-pill "/>
+    <img alt="doggo" src={Dog} className="img-fluid rounded-pill "/>
 
 
 

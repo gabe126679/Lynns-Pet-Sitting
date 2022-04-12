@@ -25,9 +25,9 @@ function Form () {
           <div  className="container border">
             <br/>
             <div className="container-sm">
-            <img src={Dog} className="img-fluid rounded-pill "/>
+            <img alt="dog" src={Dog} className="img-fluid rounded-pill "/>
             <h2 className="h1-responsive font-weight-bold text-center my-4">Book appointment</h2>
-            <p className="text-center w-responsive mx-auto mb-5">Select a Date and Time that is most suitable for us to have a chat I look forward to hearing from you and your pets!</p>
+            <p className="text-center w-responsive mx-auto mb-5">Select a Date and Time that is most suitable for us to have a chat. I look forward to hearing from you and your pets!</p>
             </div>
               <p> From: </p>
                 <DatePicker

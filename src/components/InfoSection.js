@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button1 } from './Button';
-import { Form, Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 const Section = styled.section`
   width: 100%;
