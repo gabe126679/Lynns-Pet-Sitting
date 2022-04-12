@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Button1 } from './Button';
 import ImageOne from '../images/dogs.jpg';
 
+
 const Section = styled.section`
   background: #000d1a;
   padding: 12rem 0rem;
@@ -87,17 +88,30 @@ const Features = () => {
               data-aos-once='true'
               data-aos-anchor-placement='center bottom'
             >
-              <h1>Book an Appointment</h1>
+              <h1>A Little About Me</h1>
+              <h2 className="text-center">Summary</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt maxime commodi rem dignissimos, laborum eum beatae
-                harum consectetur possimus architecto!
+                I've been caring for animals my entire life, and I've been a professional animal caretaker for over 6 years. My experience with pets of all kinds takes me above and beyond the love of what I do and provides me with a true purpose for providing pets with the most accommodating attention each animal needs and deserves. 
               </p>
+              <h2 className="text-center">Origins</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                voluptatem.
+                Growing up on a farm, I developed a unique relationship with many animals, and I naturally learned everything about how to service and comfort animals and to help them thrive in the most suitable environment. I offer pet walking, sitting, medical administration and a wide range of other services.
               </p>
-              <Button1 to='/homes'>Schedule Now</Button1>
+              <h2 className="text-center">Services</h2>
+              <p>
+                I currently work as a veterinary technician, as I've done for the past 6 years and I absolutely LOVE my job. What I provide is quintissential information regarding pets needs based on my experience treating animals with the best care and attention.
+              </p>
+              <h3 className="text-center">I would love to meet you and your pet!</h3>
+              <br/>
+              <p className="text-center">Let's Get In Touch!</p>
+              <br/>
+              <p>
+
+              </p>
+              <div className="float-none">
+                <Button1 class="btn" to='/homes' >Book an Appointment</Button1>
+              </div>
+
             </Content>
           </ColumnLeft>
           <ColumnRight>
