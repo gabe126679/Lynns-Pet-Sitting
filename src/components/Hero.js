@@ -65,6 +65,10 @@ const HeroImage = styled(motion.img)`
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+
+  @media only screen and (max-width: 600px) {
+      object-fit: fill;
+  }
 `;
 
 const HeroContent = styled.div`
@@ -197,6 +201,7 @@ const Hero = ({ slides }) => {
                       animate='visible'
                       exit='exit'
                       variants={fadeAnimation}
+                      className="image"
                     />
                     <HeroContent>
                       <h1 data-aos='fade-down' data-aos-duration='600'>
