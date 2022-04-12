@@ -103,7 +103,7 @@ const Listings = () => {
           >
             <Image src={HomeOne} alt='home' />
             <h2>Outside time for all animals</h2>
-            <InfoLink to='/homes'>
+            <InfoLink to='/about'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>
@@ -125,7 +125,7 @@ const Listings = () => {
               `}
             />
             <h2>Medical administration and pet sitting</h2>
-            <InfoLink to='/homes'>
+            <InfoLink to='/about'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>

@@ -104,7 +104,7 @@ const InfoSection = ({
           
         </ColumnRight>
       </Container>
-      <div className='container border border-warning rounded'>
+      <div className='container-sm border border-warning rounded'>
 
         <Form>
             <br/>
