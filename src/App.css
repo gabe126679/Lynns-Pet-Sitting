@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.newOne {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .newOne {
+    overflow: none;
+    margin-left: 2px;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
