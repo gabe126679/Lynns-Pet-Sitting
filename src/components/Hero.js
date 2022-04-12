@@ -10,7 +10,7 @@ const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;;
-
+  background-color: #CD853F;
 `;
 
 const HeroWrapper = styled.div`
@@ -55,8 +55,10 @@ const HeroSlider = styled.div`
       rgba(0, 0, 0, 0.2) 50%,
       rgba(0, 0, 0, 0.6) 100%
     );
+
   }
 `;
+    // background-color: #CD853F;
 
 const HeroImage = styled(motion.img)`
   position: absolute;
@@ -186,7 +188,7 @@ const Hero = ({ slides }) => {
   };
 
   return (
-    <HeroSection>
+    <HeroSection >
       <HeroWrapper>
         <AnimatePresence>
           {slides.map((slide, index) => {
