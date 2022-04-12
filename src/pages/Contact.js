@@ -10,7 +10,7 @@ const Section = styled.div`
 `;
 
 const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
+  // const [submitted, setSubmitted] = useState(false);
   // const handleSubmit = () => {
   //   setTimeout(() => {
   //     setSubmitted(true);
