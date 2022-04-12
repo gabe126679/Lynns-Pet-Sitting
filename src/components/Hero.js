@@ -10,7 +10,7 @@ const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;;
-  background-color: #CD853F;
+  background-color: #000;
 `;
 
 const HeroWrapper = styled.div`
