@@ -1,15 +1,7 @@
 import React from "react";
-import styled from 'styled-components/macro';
-import { Button1 } from "../components/Button"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dog from '../images/dogs5.jpg';
 import UserForm from '../interview/UserForm'
 import Rentals from './Rentals';
-
-
-const Section = styled.div`
-  padding: 20px;
-`;
 
 const Contact = () => {
 
