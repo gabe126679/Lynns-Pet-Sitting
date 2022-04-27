@@ -72,16 +72,7 @@ const ColumnRight = styled.div`
 const Image = styled.img`
   height: 100%;
   width: 100%;
-  object-fit: contain;
-  position: relative;
-  right: 20px;
-
-  @media screen and (max-width: 768px) {
-    position: relative;
-    right: 20px;
-    object-fit: cover;
-  }
-
+  object-fit: cover;
 `;
 
 const Features = () => {
@@ -128,13 +119,7 @@ const Features = () => {
             </Content>
           </ColumnLeft>
           <ColumnRight>
-            <Image
-              src={ImageOne}
-              data-aos='fade-left'
-              data-aos-duration='1200'
-              data-aos-once='true'
-              data-aos-anchor-placement='center bottom'
-            />
+
           </ColumnRight>
         </Wrap>
       </Container>

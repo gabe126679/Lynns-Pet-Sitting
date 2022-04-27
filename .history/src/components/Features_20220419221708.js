@@ -75,13 +75,6 @@ const Image = styled.img`
   object-fit: contain;
   position: relative;
   right: 20px;
-
-  @media screen and (max-width: 768px) {
-    position: relative;
-    right: 20px;
-    object-fit: cover;
-  }
-
 `;
 
 const Features = () => {

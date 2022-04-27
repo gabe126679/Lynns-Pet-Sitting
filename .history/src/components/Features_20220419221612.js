@@ -72,16 +72,9 @@ const ColumnRight = styled.div`
 const Image = styled.img`
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   position: relative;
-  right: 20px;
-
-  @media screen and (max-width: 768px) {
-    position: relative;
-    right: 20px;
-    object-fit: cover;
-  }
-
+  margin-right: 2px;
 `;
 
 const Features = () => {

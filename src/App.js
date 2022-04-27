@@ -10,6 +10,7 @@ import Homes from './pages/Homes';
 import Rentals from './pages/Rentals';
 import Contact from './pages/Contact';
 import Form from './pages/Form';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

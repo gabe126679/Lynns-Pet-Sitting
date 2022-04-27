@@ -123,7 +123,7 @@ const Footer = () => {
             </h3>
           </Quote>
           <FooterInfo>
-            <h4>Contact Us</h4>
+            <h4>Contact Me</h4>
             <Link to='/form'>FAQ</Link>
             <Link to='/form'>Support</Link>
             <Link to='/form'>Questions</Link>

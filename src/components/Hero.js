@@ -42,7 +42,6 @@ const HeroSlider = styled.div`
   &::before {
     content: '';
     position: absolute;
-    z-index: 2;
     width: 100%;
     height: 100vh;
     bottom: 0vh;
